@@ -50,7 +50,9 @@ cd scripts
 
 ```cmd
 deploy.cmd
-dploy.sh
+```
+```cmd
+deploy.sh
 ```
 
 O script fará automaticamente:
