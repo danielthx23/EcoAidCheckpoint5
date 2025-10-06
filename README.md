@@ -13,7 +13,7 @@ Antes de iniciar o deploy, certifique-se de que possui:
 
 ## 🧩 Passo 1: Preparar o ambiente
 
-1. Abra o **Prompt de Comando (CMD)**, pois todos comandos foram utilizados no cmd.
+1. Abra o **Prompt de Comando (CMD)** ou **PowerShell**
 2. Clone o repositório localmente (opcional):
 
 ```bash
@@ -25,7 +25,7 @@ cd EcoAidCheckpoint5
 
 ## ⚙️ Passo 2: Personalizar variáveis
 
-No início do arquivo `deploy.cmd`, edite as seguintes variáveis conforme o seu projeto:
+No início do arquivo `deploy.cmd` ou `deploy.sh`, edite as seguintes variáveis conforme o seu projeto:
 
 | Variável              | Descrição                                                                                  |
 | --------------------- | ------------------------------------------------------------------------------------------ |
@@ -40,10 +40,17 @@ No início do arquivo `deploy.cmd`, edite as seguintes variáveis conforme o seu
 
 ## 🚀 Passo 3: Executar o script
 
-1. **Execute o script** [deploy.cmd](scripts/deploy.cmd):
+1. **Entre na pasta** `scripts`:
+
+```cmd
+cd scripts
+```
+
+2. **Execute o script** [deploy.cmd](scripts/deploy.cmd) ou [deploy.sh](scripts/deploy.sh):
 
 ```cmd
 deploy.cmd
+dploy.sh
 ```
 
 O script fará automaticamente:
