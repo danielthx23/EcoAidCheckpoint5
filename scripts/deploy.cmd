@@ -1,4 +1,3 @@
-
 @echo off
 REM ==========================================
 REM DEPLOY ECOAID CHECKPOINT5 - AZURE
@@ -131,4 +130,4 @@ echo ===============================================
 echo Deploy concluído com sucesso!
 echo URL da aplicação: https://%WEBAPP_NAME%.azurewebsites.net
 echo ===============================================
-
+pause
