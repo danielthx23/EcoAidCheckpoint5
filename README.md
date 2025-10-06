@@ -40,7 +40,7 @@ No início do arquivo `deploy.cmd`, edite as seguintes variáveis conforme o seu
 
 ## 🚀 Passo 3: Executar o script
 
-1. **Execute o script** [Ver o script de deploy](scripts/deploy.cmd):
+1. **Execute o script** [deploy.cmd](scripts/deploy.cmd):
 
 ```cmd
 deploy.cmd
