@@ -81,9 +81,9 @@
 			<artifactId>postgresql</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.microsoft.sqlserver</groupId>
-			<artifactId>mssql-jdbc</artifactId>
-			<version>12.6.0.jre17</version>
+  			<groupId>com.microsoft.sqlserver</groupId>
+  			<artifactId>mssql-jdbc</artifactId>
+  			<version>13.2.0.jre11</version>
 		</dependency>
 		<dependency>
 			<groupId>com.h2database</groupId>
