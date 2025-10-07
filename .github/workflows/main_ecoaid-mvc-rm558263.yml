@@ -23,6 +23,12 @@ jobs:
     
     - name: Build with Maven
       run: mvn clean install
+      env:
+        MSSQL_HOST: ${{ secrets.AZURE_SQL_HOST }}
+        MSSQL_PORT: ${{ secrets.AZURE_SQL_PORT }}
+        MSSQL_DATABASE: ${{ secrets.AZURE_SQL_DATABASE }}
+        MSSQL_USER: ${{ secrets.AZURE_SQL_USERNAME }}
+        MSSQL_PASSWORD: ${{ secrets.AZURE_SQL_PASSWORD }}
 
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
