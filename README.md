@@ -51,8 +51,14 @@ cd scripts
 ```cmd
 deploy.cmd
 ```
+
+---
+
 ```cmd
-deploy.sh
+chmod +x deploy.sh
+```
+```cmd
+./deploy.sh 
 ```
 
 O script fará automaticamente:
